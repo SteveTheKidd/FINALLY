@@ -1,0 +1,77 @@
+body {
+    background-image: url("https://images.hdqwalls.com/wallpapers/white-cube-pattern-4k-bu.jpg");
+    background-size: cover;
+  }
+
+  .container {
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: rgba(255, 250, 250, 0.5); /* Adjust the alpha value as needed */
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  .table {
+    margin-bottom: 2rem;
+    background-color: #e0dede00;
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensure content within the table doesn't protrude */
+    
+  }
+
+  .btn-container {
+    display: flex;
+    justify-content:center;
+    margin-top: 1rem;
+  }
+  
+  .btn {
+    flex: 1;
+    margin: 0 0.4rem;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease-out;
+    
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 2rem;
+  }
+  
+  .btn:before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 250%;
+    background-color: rgba(117, 115, 115, 0.5);
+    opacity: 0;
+    transform: translate3d();
+    transition: opacity 0.4s ease-out;
+  }
+  
+  .btn:hover:before {
+    opacity: 1;
+  }
+  
+  .btn-particles{
+    background-color: #ffffff00;
+    border-color: #4d4b4b;
+    font-family: "Berlin Sans FB", sans-serif; /* Change the font family to your desired value */
+    font-size: 16px; /* Change the font size to your desired value */
+    font-weight: bold; /* Change the font weight to your desired value */
+    
+  }
+  
+.btn-particles {
+    color: #4d4b4b;
+  }
+
+  thead th {
+    color: #4d4b4b;
+    font-family: "Berlin Sans FB", sans-serif; /* Change the font family to your desired value */
+  font-size: 16px; /* Change the font size to your desired value */
+
+  }
+
+  
